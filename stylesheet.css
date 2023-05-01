@@ -1,0 +1,203 @@
+body {
+    background-color: #808080;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.promo {
+    background-image: url("jewlery3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-style: white;
+}
+
+.box {
+    margin: 10px;
+    width: 600;
+    height: 400px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.box:hover {
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+    box-shadow: 5px 0px 25px black;
+}
+
+.box img {
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
+
+.box p {
+    font-size: 12px;
+}
+
+article .box a {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+
+/* p {
+    border: 1px solid black;
+    padding: 10px;
+} */
+
+.p>h2 {
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+nav {
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav:after {
+    content: "";
+    display: block;
+    height: 50px;
+    background-color: #666;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+}
+
+footer img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: auto;
+}
+
+footer div {
+    flex: 1;
+}
+
+#copyright {
+    padding-top: 12px;
+    font-size: 0.75em;
+}
+
+
+/*
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2>span {
+    color: #FA9F42;
+    font-size: 0.75em;
+}
+
+form>div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#copyright {
+    padding-top: 12px;
+    font-size: 0.75em;
+}
+
+input:invalid {
+    color: red;
+}
+*/
